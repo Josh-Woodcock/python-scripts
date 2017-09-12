@@ -3,7 +3,7 @@
 
 import webbrowser, sys, requests, os, bs4
 
-category = input("Enter search criteria: ").replace(' ','+')
+category = sys.argv[1]      # message is second
 
 url = 'https://imgur.com/search?q=' + category 
 
