@@ -1,0 +1,873 @@
+1505205481738	geckodriver	INFO	geckodriver 0.18.0
+1505205481751	geckodriver	INFO	Listening on 127.0.0.1:52431
+1505205483705	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505206796063	geckodriver	INFO	geckodriver 0.18.0
+1505206796073	geckodriver	INFO	Listening on 127.0.0.1:52964
+1505206798008	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505206800063	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505206802364	Marionette	INFO	Enabled via --marionette
+1505206810284	Marionette	INFO	Listening on port 52970
+1505206810290	Marionette	INFO	Listening on port 52970
+1505206810701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505206810795	Marionette	DEBUG	loaded listener.js
+1505206810970	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505206811232	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505206811232	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505206813225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505206813355	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505206813601	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505206813649	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505206813749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505206813634"
+1505206813750	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505206813634"
+1505206813759	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505206814078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505208659087	Marionette	DEBUG	loaded listener.js
+1505208818320	Marionette	DEBUG	loaded listener.js
+[GPU 5948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[GPU 5948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+te	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 9168] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7188] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9168] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505209258052	Marionette	INFO	Enabled via --marionette
+1505209268675	Marionette	INFO	Listening on port 53349
+1505209268682	Marionette	INFO	Listening on port 53349
+[Child 7228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505209269511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505209269721	Marionette	DEBUG	loaded listener.js
+1505209269837	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505209270254	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505209270255	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505209273377	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505209276162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209276244	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209276302	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209276516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209276296"
+1505209276518	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209276296"
+1505209277330	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209277981	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505209483788	geckodriver	INFO	geckodriver 0.18.0
+1505209483808	geckodriver	INFO	Listening on 127.0.0.1:53454
+1505209485738	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505209488315	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505209490844	Marionette	INFO	Enabled via --marionette
+1505209512865	Marionette	INFO	Listening on port 53460
+1505209512873	Marionette	INFO	Listening on port 53460
+1505209513026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505209513075	Marionette	DEBUG	loaded listener.js
+1505209513104	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505209513225	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505209513226	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505209514619	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505209529136	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209529276	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209529633	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209529820	Marionette	DEBUG	Received DOM event "pagehide" for "https://imgur.com/"
+1505209529968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 8196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9364] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8196] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505209614133	Marionette	INFO	Enabled via --marionette
+[GPU 9508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505209645677	Marionette	INFO	Listening on port 53589
+1505209645686	Marionette	INFO	Listening on port 53589
+[Child 3268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505209646676	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505209646727	Marionette	DEBUG	loaded listener.js
+1505209646748	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505209646872	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505209646872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505209648226	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505209648254	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209648259	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209648859	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209649072	Marionette	DEBUG	Received DOM event "pagehide" for "https://imgur.com/"
+1505209649252	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 9508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9692] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+"JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505209696374	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 10836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505209708461	Marionette	INFO	Listening on port 53723
+1505209708627	Marionette	INFO	Listening on port 53723
+1505209708915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505209708983	Marionette	DEBUG	loaded listener.js
+1505209709032	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505209709370	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505209709370	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505209717630	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505209717645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209717647	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209718161	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209718291	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209718156"
+1505209718294	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209718156"
+1505209719031	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209719350	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 10836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+31 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505209932745	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+1505209957132	Marionette	INFO	Listening on port 53835
+1505209957150	Marionette	INFO	Listening on port 53835
+[Child 9648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505209957446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505209957700	Marionette	DEBUG	loaded listener.js
+1505209957780	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505209958220	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505209958220	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505209965716	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209966094	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505209966699	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505209967714	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209968058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209967709"
+1505209968060	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505209967709"
+1505209968064	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505209968386	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 10144] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505210510741	geckodriver	INFO	geckodriver 0.18.0
+1505210510751	geckodriver	INFO	Listening on 127.0.0.1:54137
+1505210512746	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505210516170	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505210517273	Marionette	INFO	Enabled via --marionette
+[GPU 5704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10468] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505210522170	Marionette	INFO	Listening on port 54143
+1505210522179	Marionette	INFO	Listening on port 54143
+1505210522223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505210522280	Marionette	DEBUG	loaded listener.js
+1505210522322	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505210522717	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505210522718	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505210524823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505210524921	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210524935	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210525432	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210525616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210525426"
+1505210525618	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210525426"
+1505210525626	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210526053	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+[GPU 5704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+[GPU 5704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505210746953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210746748"
+1505210746955	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210746748"
+1505210747007	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210748098	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+[GPU 10172] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10172] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505210804734	Marionette	INFO	Enabled via --marionette
+[GPU 2968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10640] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10640] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505210808268	Marionette	INFO	Listening on port 54373
+1505210808283	Marionette	INFO	Listening on port 54373
+1505210808633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505210808689	Marionette	DEBUG	loaded listener.js
+1505210808721	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505210808925	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505210808926	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505210809767	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210810451	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210810708	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505210811282	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210811411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210811278"
+1505210811412	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210811278"
+1505210811464	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210811811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+[GPU 2968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+r.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505210971945	Marionette	INFO	Enabled via --marionette
+[GPU 4876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505210976287	Marionette	INFO	Listening on port 54484
+1505210976303	Marionette	INFO	Listening on port 54484
+1505210976980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505210977031	Marionette	DEBUG	loaded listener.js
+1505210977060	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505210977169	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505210977169	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505210978931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505210978965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210979224	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505210980055	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210980773	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210980047"
+1505210980775	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505210980047"
+1505210981198	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505210981520	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505211105706	geckodriver	INFO	geckodriver 0.18.0
+1505211105716	geckodriver	INFO	Listening on 127.0.0.1:54585
+1505211107646	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505211109530	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505211111438	Marionette	INFO	Enabled via --marionette
+[Child 11136] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505211121938	Marionette	INFO	Listening on port 54591
+1505211121990	Marionette	INFO	Listening on port 54591
+1505211122326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505211123353	Marionette	DEBUG	loaded listener.js
+1505211123600	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505211123823	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505211123823	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505211125839	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505211126251	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211126257	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211126300	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211126401	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211126295"
+1505211126402	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211126295"
+1505211126703	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211127002	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+[GPU 8612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/toolkit/components/places/Database.cpp","lineNumber":640,"stack":["jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js:addBlocker:161","chrome://browser/content/sanitize.js:Sanitizer.onStartup:824","jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:BG__finalUIStartup:608","jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js:BG_observe:327"]}] Barrier: profile-before-change
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+istening on port 54698
+1505211245734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505211245788	Marionette	DEBUG	loaded listener.js
+1505211246055	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505211246277	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505211246277	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505211248623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505211248925	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211249330	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211249391	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211249529	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211249386"
+1505211249531	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211249386"
+1505211249533	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211249847	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505211285167	geckodriver	INFO	geckodriver 0.18.0
+1505211285207	geckodriver	INFO	Listening on 127.0.0.1:54802
+1505211287277	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505211289132	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505211291274	Marionette	INFO	Enabled via --marionette
+[GPU 9552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505211305197	Marionette	INFO	Listening on port 54808
+[Parent 808] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505211305264	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505211305513	Marionette	INFO	Listening on port 54808
+1505211306896	Marionette	DEBUG	loaded listener.js
+1505211307049	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505211307300	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505211307301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505211308218	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211308407	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211311608	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505211311791	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211312028	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211311786"
+1505211312029	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211311786"
+1505211312327	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211312639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/browser.js, line 6452: TypeError: cannot use the given object as a weak map key
+[GPU 9552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+[GPU 9552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tte	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 9344] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505211525564	Marionette	INFO	Listening on port 54937
+1505211525575	Marionette	INFO	Listening on port 54937
+[Child 9756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505211526684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505211526735	Marionette	DEBUG	loaded listener.js
+1505211526761	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505211526914	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505211526915	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505211528233	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505211528257	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211528274	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505211528360	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211528543	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211528355"
+1505211528545	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505211528355"
+1505211528601	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505211528912	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 9344] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9344] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505211966229	Marionette	INFO	Enabled via --marionette
+1505211990395	Marionette	INFO	Listening on port 55248
+1505211990402	Marionette	INFO	Listening on port 55248
+1505211990833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505211990883	Marionette	DEBUG	loaded listener.js
+1505211990912	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505211991022	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505211991023	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505211992271	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505212004897	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212004940	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212004944	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212005126	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212004934"
+1505212005128	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212004934"
+1505212005131	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212005447	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 12084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505212067537	Marionette	INFO	Enabled via --marionette
+1505212092742	Marionette	INFO	Listening on port 55365
+1505212092784	Marionette	INFO	Listening on port 55365
+[Parent 12028] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505212094038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505212094286	Marionette	DEBUG	loaded listener.js
+1505212094445	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505212096079	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505212096080	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505212097962	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505212098756	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212100001	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212100191	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212101974	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212100186"
+1505212101976	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212100186"
+1505212102015	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212103307	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 11956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505212320960	Marionette	INFO	Enabled via --marionette
+[GPU 11844] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1505212361827	Marionette	INFO	Listening on port 55531
+1505212361830	Marionette	INFO	Listening on port 55531
+1505212362871	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505212362922	Marionette	DEBUG	loaded listener.js
+1505212363646	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505212372197	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505212372197	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505212373321	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212373413	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212376409	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505212377024	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212377671	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212377017"
+1505212377673	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212377017"
+1505212377697	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212378201	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 11844] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505212824170	geckodriver	INFO	geckodriver 0.18.0
+1505212824192	geckodriver	INFO	Listening on 127.0.0.1:55708
+1505212826528	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505212835564	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505212840330	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 4696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505212854597	Marionette	INFO	Listening on port 55717
+1505212854967	Marionette	INFO	Listening on port 55717
+1505212855127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505212855183	Marionette	DEBUG	loaded listener.js
+1505212855302	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505212855726	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505212855726	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505212857895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505212857947	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212858045	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212859059	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212859288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212859053"
+1505212859289	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212859053"
+1505212859695	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212860089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 3589: TypeError: this.tabs is undefined
+[GPU 4696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 4696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Message: Error: SessionFile is closed
+  Stack:
+    write@resource:///modules/sessionstore/SessionFile.jsm:315:29
+write@resource:///modules/sessionstore/SessionFile.jsm:74:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:343:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:281:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:327:5
+runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:184:40
+setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tartup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505212954371	Marionette	INFO	Enabled via --marionette
+[GPU 3152] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505212959482	Marionette	INFO	Listening on port 55851
+1505212959497	Marionette	INFO	Listening on port 55851
+1505212959863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505212959920	Marionette	DEBUG	loaded listener.js
+1505212959956	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505212960698	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505212960699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505212968170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505212968170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212968197	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505212968613	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212968661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212968605"
+1505212968663	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505212968605"
+1505212968690	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505212969003	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505213087081	geckodriver	INFO	geckodriver 0.18.0
+1505213087094	geckodriver	INFO	Listening on 127.0.0.1:55943
+1505213089174	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505213089590	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505213091548	Marionette	INFO	Enabled via --marionette
+[GPU 12980] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1505213095554	Marionette	INFO	Listening on port 55949
+1505213095578	Marionette	INFO	Listening on port 55949
+1505213096528	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505213096582	Marionette	DEBUG	loaded listener.js
+1505213096734	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505213097093	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505213097093	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505213097905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213098999	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505213099012	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213101152	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213101268	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213101143"
+1505213101269	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213101143"
+1505213101276	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213101591	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505213714234	geckodriver	INFO	geckodriver 0.18.0
+1505213714244	geckodriver	INFO	Listening on 127.0.0.1:56110
+1505213716284	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505213718077	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505213720101	Marionette	INFO	Enabled via --marionette
+[GPU 3268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505213733872	Marionette	INFO	Listening on port 56116
+1505213733900	Marionette	INFO	Listening on port 56116
+1505213734745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505213734796	Marionette	DEBUG	loaded listener.js
+1505213734823	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505213734973	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505213734974	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505213736672	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505213736762	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213736794	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213736797	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213736874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213736790"
+1505213736876	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213736790"
+1505213736961	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213737262	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505213805408	geckodriver	INFO	geckodriver 0.18.0
+1505213805428	geckodriver	INFO	Listening on 127.0.0.1:56208
+1505213807489	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505213809033	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505213810945	Marionette	INFO	Enabled via --marionette
+1505213816497	Marionette	INFO	Listening on port 56214
+1505213816504	Marionette	INFO	Listening on port 56214
+1505213817023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505213817079	Marionette	DEBUG	loaded listener.js
+1505213817120	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505213817549	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505213817549	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505213821797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505213821846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213821940	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213822144	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213822283	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213822139"
+1505213822284	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213822139"
+1505213822288	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213822610	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505213910940	geckodriver	INFO	geckodriver 0.18.0
+1505213910950	geckodriver	INFO	Listening on 127.0.0.1:56306
+1505213912950	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505213914956	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505213916786	Marionette	INFO	Enabled via --marionette
+[GPU 9520] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505213928472	Marionette	INFO	Listening on port 56312
+1505213928491	Marionette	INFO	Listening on port 56312
+1505213928753	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505213928814	Marionette	DEBUG	loaded listener.js
+1505213928860	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505213929702	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505213929702	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505213932587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505213932689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213942679	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505213943009	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213943167	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213943000"
+1505213943171	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505213943000"
+1505213943186	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505213943505	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505213991438	geckodriver	INFO	geckodriver 0.18.0
+1505213991448	geckodriver	INFO	Listening on 127.0.0.1:56410
+1505213993488	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505213995091	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505213997087	Marionette	INFO	Enabled via --marionette
+[GPU 12620] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505214011003	Marionette	INFO	Listening on port 56416
+1505214011004	Marionette	INFO	Listening on port 56416
+[Parent 11532] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12212] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505214011467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505214011518	Marionette	DEBUG	loaded listener.js
+1505214011547	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505214011715	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505214011715	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505214012721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505214012902	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505214012906	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505214013248	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505214013302	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505214013243"
+1505214013303	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505214013243"
+1505214013306	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505214013613	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505214082801	geckodriver	INFO	geckodriver 0.18.0
+1505214082811	geckodriver	INFO	Listening on 127.0.0.1:56518
+1505214084817	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505214087239	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505214089704	Marionette	INFO	Enabled via --marionette
+1505214112516	Marionette	INFO	Listening on port 56524
+1505214112528	Marionette	INFO	Listening on port 56524
+1505214114200	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1505214135445	Marionette	DEBUG	loaded listener.js
+1505214135495	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505214135642	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505214135642	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505214136109	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505214136312	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505214137145	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505214137359	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505214137411	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505214137354"
+1505214137412	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505214137354"
+1505214137466	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505214137815	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505214997563	geckodriver	INFO	geckodriver 0.18.0
+1505214997583	geckodriver	INFO	Listening on 127.0.0.1:56804
+1505214999594	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505215003965	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505215006225	Marionette	INFO	Enabled via --marionette
+[GPU 12208] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10880] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10880] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505215014239	Marionette	INFO	Listening on port 56810
+1505215014275	Marionette	INFO	Listening on port 56810
+1505215014407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505215014471	Marionette	DEBUG	loaded listener.js
+1505215014524	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505215014792	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505215014792	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505215017031	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505215017097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505215017260	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505215017428	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505215017705	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505215017424"
+1505215017706	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505215017424"
+1505215018534	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505215019140	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505215064717	geckodriver	INFO	geckodriver 0.18.0
+1505215064727	geckodriver	INFO	Listening on 127.0.0.1:56909
+1505215067383	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505215075446	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505215079608	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[11792] WARNING: failed to create pipe: 0: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[11792] WARNING: Unable to create pipe named "4608.0.962488613\1048432867" in client mode.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x720018,name=PGPU::Msg_InitCrashReporter) Channel error: cannot send/recv
+
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GFX1-]: Could not get a DXGI adapter
+1505215098066	Marionette	INFO	Listening on port 56917
+1505215098069	Marionette	INFO	Listening on port 56917
+1505215098718	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505215098792	Marionette	DEBUG	loaded listener.js
+1505215098922	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505215099498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505215099499	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505215102416	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://imgur.com/"
+1505215102644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505215102732	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button&action=like&show_faces=false&share=false&height=35"
+1505215103308	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505215103517	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505215103303"
+1505215103519	Marionette	DEBUG	Received DOM event "pageshow" for "https://platform.twitter.com/widgets/follow_button.0e55a364e448deca530e9a13f68e1486.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=imgur&show_count=false&show_screen_name=false&size=m&time=1505215103303"
+1505215103571	Marionette	DEBUG	Received DOM event "pageshow" for "https://imgur.com/"
+1505215103902	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 761"  data: no]
+Stack: _docShellToWindow@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:761:9
+_docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:785:38
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:785:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:789:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1599:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 761, column: 0
+console.error: 
+  Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: _docShellToWindow :: line 761"  data: no]
+Stack: _docShellToWindow@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:761:9
+_docShellsToWindows/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:785:38
+_docShellsToWindows@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:785:12
+_notifyDocShellsUpdate@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:789:19
+DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1599:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 761, column: 0
+Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1602"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1602:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1602, column: 0
+console.error: 
+  Handler function DebuggerProgressListener.prototype.onStateChange threw an exception: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js :: DebuggerProgressListener.prototype.onStateChange< :: line 1602"  data: no]
+Stack: DebuggerProgressListener.prototype.onStateChange<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js:1602:9
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1602, column: 0
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1498: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIInterfaceRequestor.getInterface]
