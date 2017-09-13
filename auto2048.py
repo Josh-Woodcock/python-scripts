@@ -1,8 +1,9 @@
-#1 python3
+#! python3
 # auto plays 2048
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException        
 import webbrowser
 
 # open web browser
@@ -20,8 +21,9 @@ htmlElem = browser.find_element_by_tag_name('html')
 # gameOverElem = browser.find_element_by_class_name('game-message game-over')
 
 for x in range(0,100):
-        htmlElem.send_keys(Keys.UP)
-        htmlElem.send_keys(Keys.RIGHT)
-        htmlElem.send_keys(Keys.DOWN)
-        htmlElem.send_keys(Keys.LEFT)
+    htmlElem.send_keys(Keys.UP)
+    htmlElem.send_keys(Keys.RIGHT)
+    htmlElem.send_keys(Keys.DOWN)
+    htmlElem.send_keys(Keys.LEFT)
 
+    
