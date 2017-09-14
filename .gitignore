@@ -1,7 +1,10 @@
 *.bat
 *.bak
 *.dat
+*.xlsx
+*.exe
+*.log
+*.pdf
 mountain/
 xkcd/
 /
-*.xlsx
