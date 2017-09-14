@@ -1,8 +1,13 @@
 import PyPDF2
 
+# Choose two PDFs to combine
+
+pdf1 = input('Enter a filename: ')
+pdf2 = input('Enter a filename: ')
+
 # Opens the two files to combine
-pdf1File = open('meetingminutes.pdf', 'rb')
-pdf2File = open('meetingminutes2.pdf', 'rb')
+pdf1File = open('pdf1.pdf', 'rb')
+pdf2File = open('pdf2.pdf', 'rb')
 
 # Reads the contents of the two files
 pdf1Reader = PyPDF2.PdfFileReader(pdf1File)
@@ -22,7 +27,9 @@ for pageNum in range(pdf2Reader.numPages):
     pdfWriter.addPage(pageObj)
 
 # Create new output PDF
-pdfOutputFile = open('combinedminutes.pdf', 'wb')
+
+pdfOutputName = input('Enter a filename for new combined file: ')
+pdfOutputFile = open('pdfOutputName.pdf', 'wb')
 
 # Write the content to new file
 pdfWriter.write(pdfOutputFile)
