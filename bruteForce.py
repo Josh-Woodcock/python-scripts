@@ -24,10 +24,9 @@ for word in dictionary.split():
 
 print(passwordList)
 
-pdfReader = PyPDF2.PdfFileReader(open('encrypted.pdf', 'rb'))
-
 # Run all passwords in list through decryption
 for password in passwordList:
+    pdfReader = PyPDF2.PdfFileReader(open('encrypted.pdf', 'rb'))
     if pdfReader.decrypt(password) == 1:
         solved = password
         break
