@@ -24,7 +24,7 @@ for word in dictionary.split():
 
 print(passwordList)
 
-# Run all passwords in list through decryption
+# Run all passwords in list through decryption and print the correct one
 for password in passwordList:
     pdfReader = PyPDF2.PdfFileReader(open('encrypted.pdf', 'rb'))
     if pdfReader.decrypt(password) == 1:
